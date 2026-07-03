@@ -1,24 +1,35 @@
-# guess-the-number
-import random
+# 🐍 My Python Learning Journey (From an IIoT Perspective)
 
-# 1 se 100 ke beech ek random number choose kiya
-secret_number = random.randint(1, 100)
-attempts = 0
+Welcome to my repository! This is a dedicated space where I document my journey of mastering Python. As an **IIoT Engineer**, my focus is on using Python to bridge the gap between hardware (OT) and software/automation (IT).
 
-print("--- Guess the Number Game ---")
-print("Maine 1 se 100 ke beech ek number socha hai. Guess karo!")
+---
 
-# Loop tab tak chalega jab tak sahi guess nahi milta
-while True:
-    # User se guess input liya
-    guess = int(input("Apna guess enter karo: "))
-    attempts += 1  # Har guess par attempt badhega
-    
-    # Conditions check karna
-    if guess < secret_number:
-        print("Too Low! Thoda bada number try karo.\n")
-    elif guess > secret_number:
-        print("Too High! Thoda chhota number try karo.\n")
-    else:
-        print(f"🎉 Mubarak ho! Aapne {attempts} attempts mein sahi number guess kar liya!")
-        break  # Sahi guess hote hi loop
+## 🙋‍♂️ About Me
+
+Hi there! I am an **IIoT Engineer** passionate about industrial automation and smart systems. 
+* 🛠️ **Hardware Skills:** I work comfortably with **Arduino IDE** and **ESP32** microcontrollers for hardware prototyping and data collection.
+* 🎯 **Current Goal:** I am quite new to complex computer programming languages, so I am focusing purely on learning **Python** to write smart scripts that can interact with my hardware devices.
+* 🚀 **Approach:** I believe in starting small. Currently, I am building mini-projects and scripts to strong my core programming logic before moving into full-scale industrial data automation.
+
+---
+
+## 📈 Learning Roadmap
+
+- [x] Python Basics (Variables, Loops, Conditionals)
+- [ ] Functions & Modules (For clean, reusable hardware scripts)
+- [ ] Serial Communication (Connecting Python with ESP32/Arduino via `pyserial`)
+- [ ] Industrial Protocols in Python (MQTT, Modbus)
+- [ ] Data Logging & Simple Dashboards
+
+---
+
+## 📁 Projects in this Repository
+
+Here is a list of projects I have built so far:
+
+### 1. 🔢 Guess the Number Game
+* **Description:** A simple, fun command-line game where the computer selects a random number, and the player tries to guess it. This project helped me practice core conditional logic and loops in Python.
+* **Concepts Used:** `random` module, `while` loops, conditional statements (`if-elif-else`), and user input validation.
+* **How to run:** 
+  ```bash
+  python guess_the_number.py
