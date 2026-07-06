@@ -24,12 +24,3 @@ Hi there! I am an **IIoT Engineer** passionate about industrial automation and s
 ---
 
 ## 📁 Projects in this Repository
-
-Here is a list of projects I have built so far:
-
-### 1. 🔢 Guess the Number Game
-* **Description:** A simple, fun command-line game where the computer selects a random number, and the player tries to guess it. This project helped me practice core conditional logic and loops in Python.
-* **Concepts Used:** `random` module, `while` loops, conditional statements (`if-elif-else`), and user input validation.
-* **How to run:** 
-  ```bash
-  python guess_the_number.py
