@@ -1,4 +1,4 @@
-
+# This is for checking the transation like Debit, Credit , Balance it is used in the banking system...
 class Account:
     def __init__(self, bal, acc):
         self.balance = bal
