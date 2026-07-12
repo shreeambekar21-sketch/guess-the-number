@@ -15,7 +15,7 @@ Hi there! I am an **IIoT Engineer** passionate about industrial automation and s
 
 ## 📈 Learning Roadmap
 
-- [x] Python Basics (Variables, Loops, Conditionals)
+- [ ] Python Basics (Variables, Loops, Conditionals)
 - [ ] Functions & Modules (For clean, reusable hardware scripts)
 - [ ] Serial Communication (Connecting Python with ESP32/Arduino via `pyserial`)
 - [ ] Industrial Protocols in Python (MQTT, Modbus)
